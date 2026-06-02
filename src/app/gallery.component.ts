@@ -14,7 +14,7 @@ import { CommonModule } from '@angular/common';
 
       <main class="gallery-grid">
         <figure *ngFor="let img of images">
-            <img [src]="'/assets/images/' + img.file" [alt]="img.alt"/>
+            <img [src]="'assets/images/' + img.file" [alt]="img.alt"/>
           <figcaption>{{ img.caption }}</figcaption>
         </figure>
       </main>
